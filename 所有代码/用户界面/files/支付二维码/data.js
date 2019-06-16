@@ -1,0 +1,151 @@
+﻿$axure.loadCurrentPage({
+  "url":"支付二维码.html",
+  "generationDate":new Date(1560007708189.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"f1ea653c416e47b88da827fed6cc7a4d",
+    "type":"Axure:Page",
+    "name":"支付二维码",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"569548609fa04fcba161921fb49e9129",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFAEAEAE},
+            "location":{
+              "x":250,
+              "y":90},
+            "size":{
+              "width":500,
+              "height":300}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fe05ff9756db49fca7703175665a417a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFAEAEAE},
+                "location":{
+                  "x":250,
+                  "y":90},
+                "size":{
+                  "width":500,
+                  "height":300}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/支付二维码/u0.png"}},
+{
+          "id":"11bca7c6f76a45a6910b0b7a23454b71",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":270,
+              "y":90},
+            "size":{
+              "width":200,
+              "height":299}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3fcfe049d4824c389339f681cf18f877",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":270,
+                  "y":90},
+                "size":{
+                  "width":200,
+                  "height":299}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/充值/u2.jpg"}},
+{
+          "id":"31b55a5c194d436d8ee1434bc76c0713",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":512,
+              "y":90},
+            "size":{
+              "width":218,
+              "height":300}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"943ac6a9ae594b38b5e287326c0fca88",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":512,
+                  "y":90},
+                "size":{
+                  "width":218,
+                  "height":300}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/充值/u4.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "569548609fa04fcba161921fb49e9129":{
+      "scriptId":"u0"},
+    "fe05ff9756db49fca7703175665a417a":{
+      "scriptId":"u1"},
+    "11bca7c6f76a45a6910b0b7a23454b71":{
+      "scriptId":"u2"},
+    "3fcfe049d4824c389339f681cf18f877":{
+      "scriptId":"u3"},
+    "31b55a5c194d436d8ee1434bc76c0713":{
+      "scriptId":"u4"},
+    "943ac6a9ae594b38b5e287326c0fca88":{
+      "scriptId":"u5"}}});

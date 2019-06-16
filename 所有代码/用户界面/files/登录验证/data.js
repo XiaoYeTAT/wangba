@@ -1,0 +1,125 @@
+﻿$axure.loadCurrentPage({
+  "url":"登录验证.html",
+  "generationDate":new Date(1560007708237.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a4ae1893a2bc4f4bbcd33685fe38e509",
+    "type":"Axure:Page",
+    "name":"登录验证",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"4b3dbe424fec4bcdbc2f0cf2db454961",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"20px",
+            "location":{
+              "x":320,
+              "y":130},
+            "size":{
+              "width":230,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7b3fa5b3ba9a4da38cefe37e2c9177e2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"20px",
+                "location":{
+                  "x":320,
+                  "y":130},
+                "size":{
+                  "width":230,
+                  "height":50}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"f3ce24f8026e4b1aa2793e6c2b7e1605",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":320,
+              "y":200},
+            "size":{
+              "width":210,
+              "height":25}},
+          "adaptiveStyles":{
+}},
+{
+          "id":"4d05f05db9a34f3fb801d9b9a0a66043",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":445,
+              "y":250},
+            "size":{
+              "width":85,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"closeCurrent",
+                      "description":"关闭当前窗口"},
+{
+                      "action":"linkWindow",
+                      "description":"在 父窗口 打开 用户界面",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户界面.html",
+                        "includeVariables":true},
+                      "linkType":"parent"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "4b3dbe424fec4bcdbc2f0cf2db454961":{
+      "scriptId":"u0"},
+    "7b3fa5b3ba9a4da38cefe37e2c9177e2":{
+      "scriptId":"u1"},
+    "f3ce24f8026e4b1aa2793e6c2b7e1605":{
+      "scriptId":"u2"},
+    "4d05f05db9a34f3fb801d9b9a0a66043":{
+      "scriptId":"u3"}}});

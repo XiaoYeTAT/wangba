@@ -1,0 +1,162 @@
+﻿$axure.loadCurrentPage({
+  "url":"挂机锁定.html",
+  "generationDate":new Date(1560007708215.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"bf134164c7ad44a297daba6059cc3b47",
+    "type":"Axure:Page",
+    "name":"挂机锁定",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"center",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"75f607ff039448a9abc5f4dad6fde2e3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":430,
+              "y":160},
+            "size":{
+              "width":150,
+              "height":150}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3a585fc5d1d0417290da5c843bc294cf",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":430,
+                  "y":160},
+                "size":{
+                  "width":150,
+                  "height":150}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/挂机锁定/u0.png"}},
+{
+          "id":"9fac3784e75747d7b29c190152dd38bb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"28px",
+            "horizontalAlignment":"center",
+            "location":{
+              "x":462,
+              "y":330},
+            "size":{
+              "width":85,
+              "height":33}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"2caaea1dc14448b5914c0a66ec1fd1d0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"28px",
+                "horizontalAlignment":"center",
+                "location":{
+                  "x":462,
+                  "y":330},
+                "size":{
+                  "width":85,
+                  "height":33}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"25163c4f93104479b82e8de1821ae16d",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":404.5,
+              "y":390},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "placeholderText":"解锁密码"},
+{
+          "id":"ebc76937b1494bab8897f9453a2d0e06",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":454,
+              "y":440},
+            "size":{
+              "width":100,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 用户界面",
+                      "target":{
+                        "targetType":"page",
+                        "url":"用户界面.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "75f607ff039448a9abc5f4dad6fde2e3":{
+      "scriptId":"u0"},
+    "3a585fc5d1d0417290da5c843bc294cf":{
+      "scriptId":"u1"},
+    "9fac3784e75747d7b29c190152dd38bb":{
+      "scriptId":"u2"},
+    "2caaea1dc14448b5914c0a66ec1fd1d0":{
+      "scriptId":"u3"},
+    "25163c4f93104479b82e8de1821ae16d":{
+      "scriptId":"u4"},
+    "ebc76937b1494bab8897f9453a2d0e06":{
+      "scriptId":"u5"}}});
